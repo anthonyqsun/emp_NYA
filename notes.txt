@@ -9,3 +9,4 @@ DISCOS:
 1. LinSearch is faster than BinSearch up to a certain threshold
 QCC:
 0. When is it better to use LinSearch than BinSearch?
+1. Should we use iterative BinSearch or recursive BinSearch? Both?

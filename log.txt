@@ -1,8 +1,18 @@
-T 2021-12-16 12:00 PM EST
+R 2021-12-16 12:00 PM EST
 Created plan in class
 Time Spent: 20 mins
 
-T 2021-12-16 8:00 PM EST
+R 2021-12-16 8:00 PM EST
 Updated Work Repo to align with the instructions from the assignments page
 Updated log.txt and notes.txt
 Time Spent: 15 mins
+
+F 2021-12-17 12:00 PM EST
+Updated notes.txt and log.txt
+Provided feedback to other groups by creating GH issues
+Insights from other groups:
+- Four: iterative/recursive BinSearch; timestamp is a long type
+Updated README.md
+Configured java files to be compilable and runnable
+Edited plan.txt to reflect insights
+Time Spent: 30 mins

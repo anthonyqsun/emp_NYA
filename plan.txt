@@ -1,6 +1,6 @@
 Plan:
-0. Have multiple arrays of varying lengths. 
-1. Have a randomly generated target
+0. Have multiple Comparable arrays of varying lengths: 1-20, 100, 500, 1000, 10000, 50000. Eventually, we plan to test with a list of 1000000 items once everything works.
+1. Have a few randomly generated targets, a target outside the array, and a target less than floor(log(n)/log(2))+1 to test cases where LinSearch might outperform BinSearch.
 2. For each array, use LinSearch() and BinSearch() to find the target and record the time it took to do so.
-3. Repeat the previous step up to 20 times and find the average time it takes to find the target for each search method.
-4. Have a ratio of average LinSearch() time to average BinSearch() time for each array.
+3. Repeat the previous step up to 1000 times and find the average time it takes to find the target for each search method.
+4. Print the ratio of average LinSearch() time to average BinSearch() time for each array.
