@@ -1,0 +1,11 @@
+TNPG : NYA | Roster: Anthony Sun + Corn, Nakib Abedin + Joker
+APCS pd06
+lab02 -- BinSearch vs LinSearch
+2021-12-16
+Time Spent: 0.5 hour
+
+DISCOS:
+0. print statements take much longer to execute than normal arithmetic procedures.
+1. LinSearch is faster than BinSearch up to a certain threshold
+QCC:
+0. When is it better to use LinSearch than BinSearch?
