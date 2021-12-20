@@ -16,3 +16,7 @@ Updated README.md
 Configured java files to be compilable and runnable
 Edited plan.txt to reflect insights
 Time Spent: 30 mins
+
+M 2021-12-20 12:00 PM EST
+We found that the mills difference had a slight error each time
+We found that sometimes, there was a pause after printing the time difference before the program completes

@@ -1,3 +1,8 @@
+// Clyde "Thluffy" Sinclair
+// APCS1 pd0
+// HW48 -- implementing linear and binary search on an ArrayList of Comparables
+// 2021-12-16r
+
 /**
    class LinSearch
 **/
@@ -6,7 +11,7 @@ public class LinSearch
 {
 
   /**
-     int linSearch(Comparable[],Comparable) -- searches an array of
+     int linSearch(Comparable[],Comparable) -- searches an array of 
      Comparables for target
      post: returns index of first occurrence of target, or
      returns -1 if target not found
@@ -17,11 +22,7 @@ public class LinSearch
     int i = 0;
 
     while ( i < a.length ) {
-      if(a[i] == target){
-        // to return the first instance of target:
-        // return i; // simple version
-
-        // uses tPos:
+      if ( a[i].equals(target) ) {
         tPos = i;
         break;
       }
@@ -46,7 +47,6 @@ public class LinSearch
 
 
   //main method for testing
-  //minimal -- augment as necessary
   public static void main ( String[] args )
   {
 
@@ -59,10 +59,10 @@ public class LinSearch
     Comparable[] iArr = { 2, 4, 6, 8, 6, 42 };
     printArray( iArr );
 
-    //search for 6 in array
+    //search for 6 in array 
     System.out.println( linSearch(iArr,6) );
 
-    //search for 43 in array
+    //search for 43 in array 
     System.out.println( linSearch(iArr,43) );
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -74,7 +74,7 @@ public class LinSearch
     System.out.println("\nNow testing linSearch on String array...");
 
     //declare and initialize an array of Strings
-    String[] sArr = { "kiwi", "watermelon", "orange", "apple",
+    String[] sArr = { "kiwi", "watermelon", "orange", "apple", 
                       "peach", "watermelon" };
     printArray( sArr );
 
@@ -83,10 +83,9 @@ public class LinSearch
 
     //search for "lychee" in array
     System.out.println( linSearch(sArr,"lychee") );
-    /*----------------------------------------------------
-
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+    /*----------------------------------------------------
       ----------------------------------------------------*/
 
   }//end main()
