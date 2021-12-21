@@ -13,7 +13,7 @@ public class SearchDriver{
   }
 
   public static void main(String[] args) {
-    int[] arrLength = {500000,5000000,100000000};
+    int[] arrLength = {500000,1000000,2000000};
 
     for (int len : arrLength) {
       SearchDriver search = new SearchDriver(len);
@@ -21,12 +21,12 @@ public class SearchDriver{
       long linAcc = 0; //accumulative
       long binAcc = 0;
 
-      int[] targets = new int[100];
-      for (int i = 0; i < 100; i++) {
+      int[] targets = new int[1000];
+      for (int i = 0; i < 1000; i++) {
           targets[i] = (int) (Math.random()*len);
       }
 
-      for (int _x = 0; _x < 100; _x++) {
+      for (int _x = 0; _x < 70; _x++) {
         for (int i : targets) {
           startTime = System.currentTimeMillis();
           LinSearch.linSearch(search.arr, i);
@@ -38,16 +38,13 @@ public class SearchDriver{
           endTime = System.currentTimeMillis();
           binAcc += (endTime-startTime);
         }
+        System.out.println("reached iteration #"+_x); //keeps track of progress
       }
 
-      long linAvg = linAcc/(long) len;
-      long binAvg = binAcc/(long) len;
+      System.out.println("Total amt of time spent on LinSearch: "+linAcc);
+      System.out.println("Total amt of time spent on BinSearch: "+binAcc);
 
-      System.out.println("Average time for LinSearch: "+linAvg);
-      System.out.println("Average time for BinSearch: "+binAvg);
-      System.out.println("BinSearch is "+(linAvg)/(binAvg)+" times faster than LinSearch");
-
-      System.out.println(endTime-startTime);
+      System.out.println("BinSearch is "+(linAcc)/(binAcc)+" times faster than LinSearch for "+len+" values.");
     }
   }
 }
