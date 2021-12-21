@@ -1,3 +1,9 @@
+TNPG : NYA | Roster: Anthony Sun + Corn, Nakib Abedin + Joker
+APCS pd06
+lab02 -- BinSearch vs LinSearch
+2021-12-16
+Time Spent: 0.5 hour
+
 R 2021-12-16 12:00 PM EST
 Created plan in class
 Time Spent: 20 mins
@@ -20,3 +26,6 @@ Time Spent: 30 mins
 M 2021-12-20 12:00 PM EST
 We found that the mills difference had a slight error each time
 We found that sometimes, there was a pause after printing the time difference before the program completes
+
+M 2021-12-20 12:00 PM EST
+We ran into an error with finding the average time for LinSearch and BinSearch. We decided to remove this and just return the cumalative time instead.
