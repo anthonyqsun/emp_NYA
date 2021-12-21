@@ -6,12 +6,12 @@ Time Spent: 0.5 hour
 
 R 2021-12-16 12:00 PM EST
 Created plan in class
-Time Spent: 20 mins
+Time Spent: .3 hr
 
 R 2021-12-16 8:00 PM EST
 Updated Work Repo to align with the instructions from the assignments page
 Updated log.txt and notes.txt
-Time Spent: 15 mins
+Time Spent: .3 hr
 
 F 2021-12-17 12:00 PM EST
 Updated notes.txt and log.txt
@@ -21,11 +21,16 @@ Insights from other groups:
 Updated README.md
 Configured java files to be compilable and runnable
 Edited plan.txt to reflect insights
-Time Spent: 30 mins
+Time Spent: .5 hr
 
 M 2021-12-20 12:00 PM EST
 We found that the mills difference had a slight error each time
 We found that sometimes, there was a pause after printing the time difference before the program completes
+Time Spent: .5 hr
 
 M 2021-12-20 12:00 PM EST
-We ran into an error with finding the average time for LinSearch and BinSearch. We decided to remove this and just return the cumalative time instead.
+We ran into an error with finding the average time for LinSearch and BinSearch. Anthony decided to remove this and just use the cumulative time instead.
+We decided to implement a feature that lets the user know when each iteration is complete. This helps us get a better sense of how long the program will take to run.
+Nakib updated plan.txt, log.txt
+Anthony updated README.md
+Time Spent: .7 hr
