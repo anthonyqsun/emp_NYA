@@ -8,4 +8,4 @@
 ## Conclusions
 - It takes a LARGE value and a LARGE amount of patience to get significant values
 - Time can be saved by doing a large number of iterations of a small problem than one iter. of a large problem.
-- One error that may be present in our code is the frequent starting and stopping of the timer. Decimal millis may be discarded, which could accumulate to a larger number over time. However, since this was done for both methods of search, we think that it would only be a small contributor.
+- One error that may be present in our code is the frequent starting and stopping of the timer. Decimal millis may be discarded, which could accumulate to a larger number over time.
