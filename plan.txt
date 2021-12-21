@@ -1,7 +1,7 @@
 Plan:
-0. Set up a default constructor for SearchDriver.java which which has an argument that takes in the length. Then create a Comparable[] Array of the length of the given parameter and populate this array.
-1. Have static long instance variables called startTime and endTime which will be used later to print the time elapsed.
-2. Test collections of three different lengths (500000,5000000,100000000) with BinSearch and LinSearch.
+0. Set up a constructor for SearchDriver.java which which has an argument that takes in the length. Then create a Comparable[] Array of the length of the given parameter and populate this array.
+1. Have static long instance variables called startTime and endTime which will be used later to calculate the time elapsed.
+2. Test collections of three different lengths (500000,1000000,2000000) with BinSearch and LinSearch.
 3. Find the targets for BinSearch and LinSearch by populating an array of random targets which both BinSearch and LinSearch will be instructed to find. They will be finding the same targets in order to produce more accurate results.
 4. Find the total amount of time it took for both BinSearch and LinSearch to find the targets. Print out how long it took for each and also print out the accumulative time for linSearch divided by the accumulative time for binSearch in order to show how much faster binSeach performed.
 5. Have a print statement that lets the user know when every iteration completes so that the user has a better sense of how long the program will take to compute.
