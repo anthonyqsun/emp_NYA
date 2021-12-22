@@ -3,7 +3,7 @@
 ## Results
 - For an array of 500,000 values, BinSearch is ~500x faster than LinSearch
 - For an array of 1,000,000 values, BinSearch is ~800x faster than LinSearch
-- For an array of 2,000,000 values, BinSearch is ~600x faster than LinSearch
+- For an array of 2,000,000 values, BinSearch is ~1600x faster than LinSearch
 
 ## Conclusions
 - It takes a LARGE value and a LARGE amount of patience to get significant values
