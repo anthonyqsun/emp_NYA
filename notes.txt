@@ -15,5 +15,5 @@ QCC:
 
 GALLERY TOUR:
 0. Team Brains suggested that we should make the lengths of the arrays that we are testing on smaller and that we should increase the amount of times that we run through each so that there is less variation between our results. We chose not to implement this because part of the objective of the lab was to test “Relative to the size of the dataset, binary search is faster than linear search.” Having larger arrays would suit the instructions better.
-1. People tested binary search exclusively because 0 or 1 milliseconds for each binary search was returned unless there was a large amount of iterations/ large array.
+1. Strawberry_JAM tested binary search exclusively because 0 or 1 milliseconds for each binary search was returned unless there was a large amount of iterations/ large array.
 
