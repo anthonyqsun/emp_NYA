@@ -3,7 +3,7 @@ TNPG : NYA | Roster: Anthony Sun + Corn, Nakib Abedin + Joker
 APCS pd06
 lab02 -- BinSearch vs LinSearch
 2021-12-16
-Time Spent: 2.3 hrs
+Time Spent: 2.8 hrs
 */
 
 public class SearchDriver{
