@@ -39,5 +39,5 @@ T 2021-12-21 12:00 PM EST
 Anthony did the gallery tour
 Nakib presented the findings to the other groups
 We found one of our conclusions to be inaccurate. For an array with a length of 2 million, we said BinSearch would be around 600 times faster but that was a very rare case. After more trials, we found BinSearch to be around 1600 times faster than LinSearch.
-Updated notes.txt (added GALLERY section)
+Updated notes.txt (added GALLERY Tour section)
 Time Spent: .5 hr
