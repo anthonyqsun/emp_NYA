@@ -1,8 +1,8 @@
 TNPG : NYA | Roster: Anthony Sun + Corn, Nakib Abedin + Joker
 APCS pd06
-lab02 -- BinSearch vs LinSearch
+lab02 -- Get Empirical
 2021-12-16
-Time Spent: 2.3 hrs
+Time Spent: 2.8 hrs
 
 DISCOS:
 0. print statements take much longer to execute than normal arithmetic procedures.
@@ -14,5 +14,6 @@ QCC:
 1. Should we use iterative BinSearch or recursive BinSearch? Both?
 
 GALLERY TOUR:
-0. Team Brains suggested that we should make the lengths of the arrays that we are testing on smaller and that we should increase the amount of times that we run through each so that there is less variation between our results.
-1. People tested binary search exclusively because 0 or 1 milliseconds for each binary search.
+0. Team Brains suggested that we should make the lengths of the arrays that we are testing on smaller and that we should increase the amount of times that we run through each so that there is less variation between our results. We chose not to implement this because part of the objective of the lab was to test “Relative to the size of the dataset, binary search is faster than linear search.” Having larger arrays would suit the instructions better.
+1. People tested binary search exclusively because 0 or 1 milliseconds for each binary search was returned unless there was a large amount of iterations/ large array.
+
