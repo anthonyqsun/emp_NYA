@@ -1,5 +1,12 @@
 # emp_NYA - Anthony Sun + Corn, Nakib Abedin + Joker
 ---
+## Tests Performed
+- We tested arrays of three different lengths: 500,000; 1,000,000; and 2,000,000
+- We came up with these numbers through trial and error. These lengths are long enough to yield significant results but they are short enough for our code to execute in a reasonable amount of time. 
+- For each array, we populated another array of 1,000 randomly generated targets and then had LinSearch and BinSearch find each target in the initial array (the ones with lengths of 500,000; 1,000,000; and 2,000,000).
+- We carried out the step above 70 times in order to yield more usable data.
+- We added up the cumalative time elapsed with LinSearch and cumlative time elapsed with BinSearch and printed BinSearch's speed relative to LinSearch's speed.
+---
 ## Results
 - For an array of 500,000 values, BinSearch is ~500x faster than LinSearch
 - For an array of 1,000,000 values, BinSearch is ~800x faster than LinSearch
